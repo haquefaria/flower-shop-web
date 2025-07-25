@@ -185,11 +185,11 @@ display: flex;
 }
 
 .card1 {
-  background-image: url(/assets/deal-bloom.png) /* Bloom Plant */
+  background-image: url(assets/deal-bloom.png) /* Bloom Plant */
 }
 
 .card2 {
-  background-image: url(/assets/deal-ana.png); /* Ana Plant */
+  background-image: url(assets/deal-ana.png); /* Ana Plant */
 }
 
 .card3 {
@@ -238,7 +238,7 @@ text-align: center;
   
 }
 .hero_header {
-    background-image: url(/assets/news-letter-bg.png);
+    background-image: url(assets/news-letter-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;

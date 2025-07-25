@@ -266,9 +266,51 @@ text-align: center;
     }
     .foot-img{
         align-items: center;
-        margin-right: 20px;
+        margin-right: 22px;
         
     }
+     /*responsive for mobile*/
+
+    @media  screen and (max-width:576px) {
+
+        .nav-hide ,.badge {
+            display: none;
+        }
+        .nav-section{
+            margin: 0 auto;
+            justify-content: space-between;
+            
+
+        }
+        .flower-img{
+            flex-direction: column-reverse;
+        }
+        
+        .banner-content{
+            margin-left: 0 auto;
+        }
+        .card-container{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        
+        .whole-lover{
+            flex-direction: column;
+          } 
+        
+        .container{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .whole-info{
+            width: 100%;
+        }
+        .footer-container{
+            flex-direction: column;
+            gap: 50px;
+        }
+    }
+    
+    
+    
 
 
 
